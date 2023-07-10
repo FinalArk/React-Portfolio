@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.1e6950cd.css",
+    "main.js": "/React-Portfolio/static/js/main.17273735.js",
+    "static/media/Vicious-Landing-Page_optimized.png": "/React-Portfolio/static/media/Vicious-Landing-Page_optimized.b1ee8f4e235744fcee58.png",
+    "static/media/Vicious-Cycle_optimized.png": "/React-Portfolio/static/media/Vicious-Cycle_optimized.7373025d7c0096fd1a8a.png",
+    "static/media/Self_Portrait_optimized.png": "/React-Portfolio/static/media/Self_Portrait_optimized.8041f14f803e2113fb7a.png",
+    "static/media/Resume-Maker_optimized.png": "/React-Portfolio/static/media/Resume-Maker_optimized.6a7e1c7a4fd838ce1873.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.1e6950cd.css.map": "/React-Portfolio/static/css/main.1e6950cd.css.map",
+    "main.17273735.js.map": "/React-Portfolio/static/js/main.17273735.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e6950cd.css",
+    "static/js/main.17273735.js"
+  ]
+}

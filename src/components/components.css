@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+
+    #checkbox { 
+        display: none;
+    }
+    
+    #checkbox:checked ~ nav ul { 
+      max-height: 15em;
+    }
+    
+    .header-content { 
+      height: 3em; 
+      position: fixed;
+      width: 100%;
+      font-size: 1.5em;
+      min-width: auto;
+    }
+    
+    .menu-icon { 
+      font-size: 2em;
+      color: #3B3355;
+    }
+    
+    nav { 
+      position: absolute;
+      top: 2em; 
+      left: -1.5em;
+    }
+    
+    nav ul { 
+      list-style-type: none;
+      max-height: 0em;  /* Nav should be collapsed by default */
+      overflow: hidden; /*hides contents when collapsed */
+      transition: max-height 0.5s;
+    }	
+      
+    nav ul li a, button { 
+      text-decoration: none;
+      display: block;
+    } 
+    
+    /* End of Hamburger styles */
+      
+      
+    .header-content nav ul { 
+      list-style-type: none;
+    }
+    
+    nav a { 
+      text-decoration: none;  /* Removes underline */
+      color: #5D5D81;
+      padding: 15px 20px; /* Add space around text */
+      transition: .2s ease-in-out;
+    }
+    
+    nav ul li a:hover, section a:hover { 
+      color: #3B3355;
+      text-shadow: #5D5D81 3px 3px 3px;
+    }
+    
+    .main-content{ 
+      font-size: 2em;
+      max-width: 1000px;
+      margin-left: 200px;
+    }
+    
+    .main-content h1, span {
+      font-size: 2em;
+      font-family: 'Righteous', cursive;
+      color: #3B3355;
+    }
+    
+    .soical-information ul {
+      list-style: none; 
+      display: flex;
+      justify-content: center;
+      margin-left: -325px;
+    }
+    
+    .section-format { 
+      font-family: 'Righteous', cursive;
+      color: #3B3355;
+      font-size: 2em;
+      max-width: 1000px;
+      margin-left: 200px;
+      }
+    
+    section h3 { 
+      border: #5D5D81;
+      border-style: solid;
+      border-width: 0 0 1px 0;
+    }
+    
+    section p, a { 
+      font-family: 'Roboto', sans-serif;
+      color: none;
+      font-size: 1.5rem;
+      float: left;
+      width: 55%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transition: .2s ease-in-out;
+      text-decoration: none;
+    }
+    
+    section img { 
+      float: left;
+      padding: 5px 15px;
+    }
+    
+    .headings { 
+      font-style: italic;
+      color: #5D5D81;
+      font-size: 2rem;
+    }
+    
+    .about-me img {
+      border-radius: 50px;
+    }
+      
+    .projects img { 
+      vertical-align: middle;
+      margin-top: 1em;
+    }
+    
+    .contacts p, .contacts a { 
+      text-align: center;
+      margin-left: 200px;
+      margin-top: -10px;
+    }
+
+    .experience ul { 
+      color: #3B3355;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    .experience li { 
+      padding: 10px;
+    }
+    
+    
+    @media screen and (min-width: 750px) { 
+      .menu-icon { 
+      display: none;
+    }
+    
+      .header-content nav ul { 
+        list-style: none; /* Removes bullets */
+          display: flex;
+          align-items: center;
+      }
+            
+      nav { 
+        position: relative;
+        top: -.5em;
+      }
+            
+      .header-content { 
+        position: relative;
+      }
+    
+      nav ul { 
+        overflow: visible;
+      }
+    }
+      
+    
+    @media screen and (max-width: 750px) {
+    
+      .main-content { 
+        margin-left: 150px;
+        margin-top: 100px;
+      }
+    
+      .section-format { 
+        margin-left: 150px;
+      }
+    
+      img { 
+        margin-bottom: 10px;
+      }
+    
+      .headings { 
+        margin: 10px;
+      }
+    
+      .contacts p, .contacts a { 
+        margin-left: 75px;
+      }
+    
+      .contacts a { 
+        margin-left: -5px;
+      }
+    
+    }

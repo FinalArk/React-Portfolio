@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+
+html {
+ scroll-behavior: smooth;
+}
+
+body { 
+  background-color:#C3DFE0;
+  font-family: 'Roboto', sans-serif;
+}
+
+@supports (grid-area: auto) {
+  @media screen and (min-width: 450px) { 
+      .site { 
+          display: grid; 
+          grid-template-columns: 1fr 1fr; 
+          grid-template-rows: auto .5fr .5fr .5fr; 
+          grid-template-areas: 
+                  "header header" 
+                  "main main"
+                  "footer footer"
+      }
+  
+      .header-content {
+          grid-area: header;
+      }
+  
+      .main-content { 
+          grid-area: main;
+      }
+  
+      .footer-content { 
+          grid-area: footer;
+      }
+  
+      .about-me { 
+          grid-area: about;
+      }
+  
+      .projects {
+          grid-area: project;
+      }
+  
+      .contacts { 
+          grid-area: contacts;
+      }
+
+      .experience {
+        grid-area: experience;
+      }
+      
+  }
+  
+  @media screen and (min-width: 600px) { 
+      .site {
+          grid-template-columns: 1fr 1fr 1fr; 
+          grid-template-areas: 
+                  ". . header"
+                  "main main main"
+                  "about about about"
+                  "project project project"
+                  "experience experience experience"
+                  "contacts contacts contacts";
+      }
+  }
+  }
+
+
+  
